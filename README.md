@@ -1,30 +1,51 @@
-# React + TypeScript + Vite
+# Star wars
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+App for check starwars characters info
 
-Currently, two official plugins are available:
+## Technology Stack
+- React
+- Typescript
+- MUI
+- Axios
+- React-hook-form
+- React-testin-library
+- TanStack Query
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Work done ✅
+1. **Character list**
+2. **Search**
+3. **Pagination**
+4. **Character details card**
+5. **Editing mode**
+6. **Local saving**
+7. **Tested files: character-detail.test.tsx & getIdFromUrl.test.ts**
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Create `.env.local` file**
+  - In the root of the project, create a file named `.env.local`.
+  - Add the following variables, replacing `<api_endpoint>` with the GraphQL URL
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+VITE_ENDPOINT=<api_endpoint>
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**To start work project locally use this commands**
+
+```bash
+npm install
+npm run dev
+```
+
+**To run tests**
+```bash
+npm run test
+```
+
+**Current version of application**
+
+<img width="1296" alt="image" src="https://github.com/nevmstas/star-wars-characters/assets/30295560/becd0bce-8cf1-4b86-9666-d0ac22e5c8dc">
+<img width="817" alt="image" src="https://github.com/nevmstas/star-wars-characters/assets/30295560/e27badfd-c139-4f99-9912-d56e04ebe1eb">
+<img width="984" alt="image" src="https://github.com/nevmstas/star-wars-characters/assets/30295560/b783543d-7ab6-4b1a-90b9-0dedf7205379">
+
+
