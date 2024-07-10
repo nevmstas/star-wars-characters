@@ -25,7 +25,7 @@ App for check starwars characters info
 
 1. **Create `.env.local` file**
   - In the root of the project, create a file named `.env.local`.
-  - Add the following variables, replacing `<api_endpoint>` with the GraphQL URL
+  - Add the following variables, replacing `<api_endpoint>`
 
 ```bash
 VITE_ENDPOINT=<api_endpoint>
