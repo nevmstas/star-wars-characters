@@ -19,6 +19,7 @@ App for check starwars characters info
 5. **Editing mode**
 6. **Local saving**
 7. **Tested files: character-detail.test.tsx & getIdFromUrl.test.ts**
+8. **Setup CI for running tests before push | pull request**
 
 ## Getting Started
 
