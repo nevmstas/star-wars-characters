@@ -13,7 +13,6 @@ const CharacterDetailPage: React.FC = () => {
     id as string
   );
 
-  if (isLoading) return <div>Loading...</div>;
   if (isError) return <div>Error loading character</div>;
 
   const character = characterFromStore || data;
@@ -21,7 +20,7 @@ const CharacterDetailPage: React.FC = () => {
   return (
     <Container>
       {!character || isLoading ? (
-        <Skeleton variant="rounded" height={300} width={200} />
+        <Skeleton variant="rounded" height={500} width={330} />
       ) : (
         <CharacterDetail character={character} onSave={setCharacterToStore} />
       )}
