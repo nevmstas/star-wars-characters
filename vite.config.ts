@@ -3,7 +3,7 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/star-wars-characters',
+  base: '/',
   test: {
     globals: true,
     environment: 'jsdom',

@@ -14,6 +14,6 @@ export const usePlanet = (url: string) => {
   const id = getIdFromUrl(url);
   return useQuery({
     queryKey: ["planet", id],
-    queryFn: () => fetchPlanet(id),
+    queryFn: () => (id ? fetchPlanet(id) : null),
   });
 };
