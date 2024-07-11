@@ -8,7 +8,7 @@ App for check starwars characters info
 - MUI
 - Axios
 - React-hook-form
-- React-testin-library
+- React-testing-library
 - TanStack Query
 
 ## Work done ✅
@@ -19,8 +19,8 @@ App for check starwars characters info
 5. **Editing mode**
 6. **Local saving**
 7. **Tested files: character-detail.test.tsx & getIdFromUrl.test.ts**
-8. **Setup CI for running tests before push**
-9. **Setup CD on github pages**
+8. **Set up CI for running tests before push**
+9. **Set up deploy on github pages**
 
 ## Getting Started
 
